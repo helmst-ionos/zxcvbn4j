@@ -13,6 +13,7 @@ import java.util.Calendar;
  * @deprecated This interface is deprecated. Use {@link com.nulabinc.zxcvbn.guesses.Guess} instead.
  * @see Match
  */
+@Deprecated
 public interface Guess {
 
   /** Cardinality used in brute force attacks. */
